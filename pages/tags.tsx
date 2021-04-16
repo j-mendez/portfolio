@@ -125,7 +125,7 @@ class Tags extends React.Component {
                       <h3 style={{ fontSize: 16 }}>A11yWatch</h3>
                     </a>
                     <div className={cx("tags__headerSub")}>
-                      Improve the process of your website accessibility and
+                      Improve the process of your website inclusiveness and
                       prevent your page from having drastic a11y problems with a
                       custom cdn catered for your website.
                     </div>
@@ -198,6 +198,63 @@ class Tags extends React.Component {
                         alt="A11yWatch - instantly fix web accessibility issues on your website | Product Hunt Embed"
                         style={{ maxWidth: 250, maxHeight: 54 }}
                       />
+                    </a>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <br />
+            <div className={cx("tags_subContainer")}>
+              <div className={cx("tags__header")}>
+                <div
+                  style={{
+                    flexDirection: "row",
+                    paddingRight: 14,
+                    justifyContent: "center"
+                  }}
+                >
+                  <div>
+                    <a href="https://github.com/SafeWare">
+                      <h3 style={{ fontSize: 16 }}>Safecore</h3>
+                    </a>
+                    <div className={cx("tags__headerSub")}>
+                      Safecore - Encrypted Communication (Open-source)
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className={cx("tags_blocks")}
+                style={{
+                  background: "none",
+                  boxShadow: "none",
+                  border: 0,
+                  flex: 1
+                }}
+              >
+                <iframe
+                  src="https://www.youtube.com/embed/LPDrOSWsPg4"
+                  title="YouTube video for encrypted audio project"
+                  frameBorder="0"
+                  style={videoStyles}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
+              <div />
+              <div className={cx("tags_blockBottom")}>
+                <div className={cx("tags_info")}>
+                  <div>About the Project</div>
+                  <p>Encrypted communication fully open source</p>
+                  <p>Creator</p>
+                  <div>Made using</div>
+                  <ul>
+                    <li>React-Native</li>
+                    <li>WebSockets</li>
+                    <li>Node - Migrating to Deno before v1</li>
+                    <li>Murmur</li>
+                    <a href="https://github.com/SafeWare">
+                      <li>View Website</li>
                     </a>
                   </ul>
                 </div>

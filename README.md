@@ -6,3 +6,6 @@ Jeff Mendez web portfolio - project uses next.js
 1. npm i
 2. npm run dev
 
+## About
+
+Mostly spaghetti code from 8 years ago moved over to next.js.
