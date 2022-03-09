@@ -1,0 +1,24 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: A11yWatch
+        id: a11ywatch-results-generator
+        uses: a11ywatch/github-action@v1.1.1
+        with:
+          WEBSITE_URL: ${{ secrets.WEBSITE_URL }}
+          EXTERNAL: true
+      - name: Get Results
+        run: |
+          echo "website accessibility score ${{ fromJson(steps['a11ywatch-results-generator'].outputs.results).website.adaScore }}"
+          echo ${{ toJSON(steps['a11ywatch-results-generator'].outputs.results) }} | jq ". | tojson"
