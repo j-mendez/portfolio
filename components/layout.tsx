@@ -1,19 +1,19 @@
-import Head from "next/head"
-import styles from "./layout.module.css"
-import utilStyles from "../styles/utils.module.css"
-import Link from "next/link"
-import Navigation from "./navigation"
-import { Fragment } from "react"
+import Head from "next/head";
+import styles from "./layout.module.css";
+import utilStyles from "../styles/utils.module.css";
+import Link from "next/link";
+import Navigation from "./navigation";
+import { Fragment, ReactNode } from "react";
 
-const name = "Jeff Mendez"
-export const siteTitle = "Jeff Mendez - Solutions Expert"
+const name = "Jeff Mendez";
+export const siteTitle = "Jeff Mendez - Solutions Expert";
 
 export default function Layout({
   children,
-  home
+  home,
 }: {
-  children: React.ReactNode
-  home?: boolean
+  children: ReactNode;
+  home?: boolean;
 }) {
   return (
     <Fragment>
@@ -75,5 +75,5 @@ export default function Layout({
         )}
       </div>
     </Fragment>
-  )
+  );
 }
