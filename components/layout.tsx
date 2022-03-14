@@ -6,7 +6,7 @@ import Navigation from "./navigation";
 import { Fragment, ReactNode } from "react";
 
 const name = "Jeff Mendez";
-export const siteTitle = "Jeff Mendez - Solutions Expert";
+export const siteTitle = "Jeff Mendez - Software Engineer";
 
 export default function Layout({
   children,
@@ -23,7 +23,7 @@ export default function Layout({
           <link rel="icon" href="/favicon.ico" />
           <meta
             name="description"
-            content="Jeff Mendez | Solutions Expert | Orlando, Florida"
+            content="Jeff Mendez | Software Engineer | Orlando, Florida"
           />
           <meta
             property="og:image"

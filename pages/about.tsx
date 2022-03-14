@@ -1,9 +1,9 @@
-import React from "react"
-import classNames from "classnames/bind"
-import styles from "../styles/components/about.module.scss"
-import Layout, { siteTitle } from "../components/layout"
+import React from "react";
+import classNames from "classnames/bind";
+import styles from "../styles/components/about.module.scss";
+import Layout, { siteTitle } from "../components/layout";
 
-const cx = classNames.bind(styles)
+const cx = classNames.bind(styles);
 
 const About = () => {
   return (
@@ -12,7 +12,7 @@ const About = () => {
         <h1>About Jeff Mendez</h1>
         <div className={cx("about__description")}>
           <p>
-            I am a Florida-based solutions expert that loves everything about
+            I am a Florida-based software engineer that loves everything about
             building things. I specialize in security, devops, data intensive
             applications, and software engineering. If you are looking for an
             experienced software engineer to create a new application, write new
@@ -37,7 +37,7 @@ const About = () => {
         </div>
       </div>
     </Layout>
-  )
-}
+  );
+};
 
-export default About
+export default About;

@@ -1,9 +1,9 @@
-import classNames from "classnames/bind"
-import styles from "../styles/components/hire.module.scss"
-import Layout, { siteTitle } from "../components/layout"
-import Head from "next/head"
+import classNames from "classnames/bind";
+import styles from "../styles/components/hire.module.scss";
+import Layout, { siteTitle } from "../components/layout";
+import Head from "next/head";
 
-const cx = classNames.bind(styles)
+const cx = classNames.bind(styles);
 
 const Hire = () => {
   return (
@@ -15,9 +15,9 @@ const Hire = () => {
         <div className="row">
           <div className="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <div className="col-md-12">
-              <h1>Solutions Expert Jeff Mendez</h1>
+              <h1>Software Engineer Jeff Mendez</h1>
               <p>
-                Florida based solutions expert with a strong overall grasp of
+                Florida based software engineer with a strong overall grasp of
                 tech.
               </p>
               <p>
@@ -109,7 +109,7 @@ const Hire = () => {
         <hr />
       </div>
     </Layout>
-  )
-}
+  );
+};
 
-export default Hire
+export default Hire;
