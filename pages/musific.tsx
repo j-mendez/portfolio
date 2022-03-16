@@ -1,8 +1,8 @@
-import React from "react"
-import classNames from "classnames/bind"
-import styles from "../styles/components/about.module.scss"
+import React from "react";
+import classNames from "classnames/bind";
+import styles from "../styles/components/about.module.scss";
 
-const cx = classNames.bind(styles)
+const cx = classNames.bind(styles);
 
 const Musific = () => {
   return (
@@ -12,13 +12,10 @@ const Musific = () => {
         <p>We do not take any of your data</p>
       </div>
       <div className={cx("about__contribute")}>
-        <p>
-          Contact me at jeffmendez19@gmail.com email will change soon once
-          project kicks off
-        </p>
+        <p>Contact me at jeffmendez19@gmail.com email.</p>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Musific
+export default Musific;
