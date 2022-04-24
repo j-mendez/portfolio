@@ -7,6 +7,12 @@ export default function Home() {
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
+        <meta
+          name="description"
+          content={
+            "Florida based software engineer focusing on accessibility at A11yWatch. Lover of art and music and of course coffee."
+          }
+        />
       </Head>
       <section className={utilStyles.headingMd}>
         <p>

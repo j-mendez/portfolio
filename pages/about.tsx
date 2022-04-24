@@ -2,12 +2,22 @@ import React from "react";
 import classNames from "classnames/bind";
 import styles from "../styles/components/about.module.scss";
 import Layout, { siteTitle } from "../components/layout";
+import Head from "next/head";
 
 const cx = classNames.bind(styles);
 
 const About = () => {
   return (
     <Layout>
+      <Head>
+        <title>About Jeff Mendez and personal enjoyments </title>
+        <meta
+          name="description"
+          content={
+            "A section about myself day to day and as a software engineer."
+          }
+        />
+      </Head>
       <div className={cx("about")}>
         <h1>About Jeff Mendez</h1>
         <div className={cx("about__description")}>
