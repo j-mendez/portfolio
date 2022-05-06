@@ -1,95 +1,95 @@
-import React from "react"
-import Head from "next/head"
-import classNames from "classnames/bind"
-import styles from "../styles/components/tags.module.scss"
-import Layout, { siteTitle } from "../components/layout"
+import React from "react";
+import Head from "next/head";
+import classNames from "classnames/bind";
+import styles from "../styles/components/tags.module.scss";
+import Layout, { siteTitle } from "../components/layout";
 
-const knackM = "images/knackM.jpg"
-const knackD = "images/knackD.png"
-const reportM = "images/reportM.png"
-const reportD = "images/reportD.png"
-const twitchD = "images/twitchD.png"
-const twitchM = "images/twitchM.png"
+const knackM = "images/knackM.jpg";
+const knackD = "images/knackD.png";
+const reportM = "images/reportM.png";
+const reportD = "images/reportD.png";
+const twitchD = "images/twitchD.png";
+const twitchM = "images/twitchM.png";
 
-const arcusiOS1 = "images/arcus/ios1.png"
-const arcusiOS2 = "images/arcus/ios2.png"
-const arcusiOS3 = "images/arcus/ios3.png"
-const arcusiOS4 = "images/arcus/ios4.png"
+const arcusiOS1 = "images/arcus/ios1.png";
+const arcusiOS2 = "images/arcus/ios2.png";
+const arcusiOS3 = "images/arcus/ios3.png";
+const arcusiOS4 = "images/arcus/ios4.png";
 
-const arcusiOSDark1 = "images/arcus/iosDark1.png"
-const arcusiOSDark2 = "images/arcus/iosDark2.png"
-const arcusiOSDark3 = "images/arcus/iosDark3.png"
-const arcusiOSDark4 = "images/arcus/iosDark4.png"
+const arcusiOSDark1 = "images/arcus/iosDark1.png";
+const arcusiOSDark2 = "images/arcus/iosDark2.png";
+const arcusiOSDark3 = "images/arcus/iosDark3.png";
+const arcusiOSDark4 = "images/arcus/iosDark4.png";
 
-const android1 = "images/arcus/android1.png"
-const android2 = "images/arcus/android2.png"
-const android3 = "images/arcus/android3.png"
-const android4 = "images/arcus/android4.png"
+const android1 = "images/arcus/android1.png";
+const android2 = "images/arcus/android2.png";
+const android3 = "images/arcus/android3.png";
+const android4 = "images/arcus/android4.png";
 
-const androidDark1 = "images/arcus/androidDark1.png"
-const androidDark2 = "images/arcus/androidDark2.png"
-const androidDark3 = "images/arcus/androidDark3.png"
-const androidDark4 = "images/arcus/androidDark4.png"
+const androidDark1 = "images/arcus/androidDark1.png";
+const androidDark2 = "images/arcus/androidDark2.png";
+const androidDark3 = "images/arcus/androidDark3.png";
+const androidDark4 = "images/arcus/androidDark4.png";
 
-const coinlist1 = "images/coinlist1.png"
-const coinlist2 = "images/coinlist2.png"
-const coinlist3 = "images/coinlist3.png"
-const coinlist4 = "images/coinlist4.png"
-const coinlist5 = "images/coinlist5.png"
+const coinlist1 = "images/coinlist1.png";
+const coinlist2 = "images/coinlist2.png";
+const coinlist3 = "images/coinlist3.png";
+const coinlist4 = "images/coinlist4.png";
+const coinlist5 = "images/coinlist5.png";
 
-const musific1 = "images/musific1.png"
-const musific2 = "images/musific2.png"
-const musific3 = "images/musific3.png"
-const musific4 = "images/musific4.png"
-const musific5 = "images/musific5.png"
+const musific1 = "images/musific1.png";
+const musific2 = "images/musific2.png";
+const musific3 = "images/musific3.png";
+const musific4 = "images/musific4.png";
+const musific5 = "images/musific5.png";
 
-const quimbee1 = "images/quimbee1.png"
-const quimbee2 = "images/quimbee2.png"
-const quimbee3 = "images/quimbee3.png"
-const quimbee4 = "images/quimbee4.png"
-const quimbee5 = "images/quimbee5.png"
+const quimbee1 = "images/quimbee1.png";
+const quimbee2 = "images/quimbee2.png";
+const quimbee3 = "images/quimbee3.png";
+const quimbee4 = "images/quimbee4.png";
+const quimbee5 = "images/quimbee5.png";
 
-const zeemee1 = "images/zeemee1.png"
-const zeemee2 = "images/zeemee2.png"
-const zeemee3 = "images/zeemee3.png"
-const zeemee4 = "images/zeemee4.png"
-const zeemee5 = "images/zeemee5.png"
+const zeemee1 = "images/zeemee1.png";
+const zeemee2 = "images/zeemee2.png";
+const zeemee3 = "images/zeemee3.png";
+const zeemee4 = "images/zeemee4.png";
+const zeemee5 = "images/zeemee5.png";
 
-const gymbo1 = "images/gymbo1.png"
-const gymbo2 = "images/gymbo2.png"
+const gymbo1 = "images/gymbo1.png";
+const gymbo2 = "images/gymbo2.png";
 
-const carsight = "images/carsight.png"
-const a11ywatch = "images/a11ywatch.png"
-const a11ywatch1 = "images/a11ywatch1.png"
+const carsight = "images/carsight.png";
+const a11ywatch = "images/a11ywatch.png";
+const a11ywatch1 = "images/a11ywatch1.png";
 
-const cx = classNames.bind(styles)
+const cx = classNames.bind(styles);
 
 class Tags extends React.Component {
   state = {
     darkMode: false,
     loaded: true,
-    arcusOs: false
-  }
+    arcusOs: false,
+  };
 
   changeTheme = () => {
-    this.setState({ darkMode: !this.state.darkMode })
-  }
+    this.setState({ darkMode: !this.state.darkMode });
+  };
 
   changeArcusOS = () => {
-    this.setState({ arcusOs: !this.state.arcusOs })
-  }
+    this.setState({ arcusOs: !this.state.arcusOs });
+  };
 
   render() {
-    let arcus1 = !this.state.darkMode ? arcusiOS1 : arcusiOSDark1
-    let arcus2 = !this.state.darkMode ? arcusiOS2 : arcusiOSDark2
-    let arcus3 = !this.state.darkMode ? arcusiOS3 : arcusiOSDark3
-    let arcus4 = !this.state.darkMode ? arcusiOS4 : arcusiOSDark4
+    let arcus1 = !this.state.darkMode ? arcusiOS1 : arcusiOSDark1;
+    let arcus2 = !this.state.darkMode ? arcusiOS2 : arcusiOSDark2;
+    let arcus3 = !this.state.darkMode ? arcusiOS3 : arcusiOSDark3;
+    let arcus4 = !this.state.darkMode ? arcusiOS4 : arcusiOSDark4;
 
     if (this.state.arcusOs) {
-      arcus1 = !this.state.darkMode ? android1 : androidDark1
-      arcus2 = !this.state.darkMode ? android2 : androidDark2
-      arcus3 = !this.state.darkMode ? android3 : androidDark3
-      arcus4 = !this.state.darkMode ? android4 : androidDark4
+      arcus1 = !this.state.darkMode ? android1 : androidDark1;
+      arcus2 = !this.state.darkMode ? android2 : androidDark2;
+      arcus3 = !this.state.darkMode ? android3 : androidDark3;
+      arcus4 = !this.state.darkMode ? android4 : androidDark4;
     }
 
     const videoStyles = {
@@ -98,8 +98,8 @@ class Tags extends React.Component {
       minWidth: "100%",
       flex: 1,
       margin: 0,
-      padding: 0
-    }
+      padding: 0,
+    };
 
     return (
       <Layout>
@@ -117,7 +117,7 @@ class Tags extends React.Component {
                   style={{
                     flexDirection: "row",
                     paddingRight: 14,
-                    justifyContent: "center"
+                    justifyContent: "center",
                   }}
                 >
                   <div>
@@ -138,7 +138,7 @@ class Tags extends React.Component {
                   background: "none",
                   boxShadow: "none",
                   border: 0,
-                  flex: 1
+                  flex: 1,
                 }}
               >
                 <iframe
@@ -172,7 +172,7 @@ class Tags extends React.Component {
                     wanted to make this tasks simple instead of something that
                     takes experienced engineers to come in and do.
                   </p>
-                  <p>Founder and CEO</p>
+                  <p>Creator</p>
                   <div>Made using</div>
                   <ul>
                     <li>React</li>
@@ -210,121 +210,7 @@ class Tags extends React.Component {
                   style={{
                     flexDirection: "row",
                     paddingRight: 14,
-                    justifyContent: "center"
-                  }}
-                >
-                  <div>
-                    <a href="https://github.com/SafeWare">
-                      <h3 style={{ fontSize: 16 }}>Safecore</h3>
-                    </a>
-                    <div className={cx("tags__headerSub")}>
-                      Safecore - Encrypted Communication (Open-source)
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className={cx("tags_blocks")}
-                style={{
-                  background: "none",
-                  boxShadow: "none",
-                  border: 0,
-                  flex: 1
-                }}
-              >
-                <iframe
-                  src="https://www.youtube.com/embed/LPDrOSWsPg4"
-                  title="YouTube video for encrypted audio project"
-                  frameBorder="0"
-                  style={videoStyles}
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
-              </div>
-              <div />
-              <div className={cx("tags_blockBottom")}>
-                <div className={cx("tags_info")}>
-                  <div>About the Project</div>
-                  <p>Encrypted communication fully open source</p>
-                  <p>Creator</p>
-                  <div>Made using</div>
-                  <ul>
-                    <li>React-Native</li>
-                    <li>WebSockets</li>
-                    <li>Node - Migrating to Deno before v1</li>
-                    <li>Murmur</li>
-                    <a href="https://github.com/SafeWare">
-                      <li>View Website</li>
-                    </a>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <br />
-            <div className={cx("tags_subContainer")}>
-              <div className={cx("tags__header")}>
-                <div
-                  style={{
-                    flexDirection: "row",
-                    paddingRight: 14,
-                    justifyContent: "center"
-                  }}
-                >
-                  <div>
-                    <a href="https://www.miniprograms.xyz">
-                      <h3 style={{ fontSize: 16 }}>MiniPrograms</h3>
-                    </a>
-                    <div className={cx("tags__headerSub")}>
-                      Mini Programs to inject in your app and extract data from.
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className={cx("tags_blocks")}
-                style={{
-                  background: "none",
-                  boxShadow: "none",
-                  border: 0,
-                  flex: 1
-                }}
-              >
-                <iframe
-                  style={videoStyles}
-                  src="https://i.gyazo.com/bb1756ee811474f5a669daac73e0e6f4.mp4"
-                  frameBorder="0"
-                  allow="autoplay; fullscreen"
-                  allowFullScreen
-                ></iframe>
-              </div>
-              <div />
-              <div className={cx("tags_blockBottom")}>
-                <div className={cx("tags_info")}>
-                  <div>About the Project</div>
-                  <p>
-                    MiniPrograms is a utility product that allows you to add
-                    useful applications into your programs with ease.
-                  </p>
-                  <p>Creator</p>
-                  <div>Made using</div>
-                  <ul>
-                    <li>React</li>
-                    <li>Next.js</li>
-                    <a href="https://www.miniprograms.xyz">
-                      <li>View Website</li>
-                    </a>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <br />
-            <div className={cx("tags_subContainer")}>
-              <div className={cx("tags__header")}>
-                <div
-                  style={{
-                    flexDirection: "row",
-                    paddingRight: 14,
-                    justifyContent: "center"
+                    justifyContent: "center",
                   }}
                 >
                   <div>
@@ -352,7 +238,7 @@ class Tags extends React.Component {
                     background: "none",
                     boxShadow: "none",
                     border: 0,
-                    flex: 1
+                    flex: 1,
                   }}
                 >
                   <iframe
@@ -393,7 +279,7 @@ class Tags extends React.Component {
                   style={{
                     flexDirection: "row",
                     paddingRight: 14,
-                    justifyContent: "center"
+                    justifyContent: "center",
                   }}
                 >
                   <div>
@@ -461,7 +347,7 @@ class Tags extends React.Component {
                   style={{
                     flexDirection: "row",
                     paddingRight: 14,
-                    justifyContent: "center"
+                    justifyContent: "center",
                   }}
                 >
                   <div>
@@ -537,7 +423,7 @@ class Tags extends React.Component {
                   style={{
                     flexDirection: "row",
                     paddingRight: 14,
-                    justifyContent: "center"
+                    justifyContent: "center",
                   }}
                 >
                   <div>
@@ -611,7 +497,7 @@ class Tags extends React.Component {
                   style={{
                     flexDirection: "row",
                     paddingRight: 14,
-                    justifyContent: "center"
+                    justifyContent: "center",
                   }}
                 >
                   <div>
@@ -698,7 +584,7 @@ class Tags extends React.Component {
                   style={{
                     flexDirection: "row",
                     paddingRight: 14,
-                    justifyContent: "center"
+                    justifyContent: "center",
                   }}
                 >
                   <div>
@@ -1004,8 +890,8 @@ class Tags extends React.Component {
           </div>
         </div>
       </Layout>
-    )
+    );
   }
 }
 
-export default Tags
+export default Tags;
