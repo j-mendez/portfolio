@@ -1,7 +1,7 @@
 import React from "react";
 import classNames from "classnames/bind";
 import styles from "../styles/components/about.module.scss";
-import Layout, { siteTitle } from "../components/layout";
+import Layout from "../components/layout";
 import Head from "next/head";
 
 const cx = classNames.bind(styles);

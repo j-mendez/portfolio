@@ -43,24 +43,13 @@ const musific3 = "images/musific3.png";
 const musific4 = "images/musific4.png";
 const musific5 = "images/musific5.png";
 
-const quimbee1 = "images/quimbee1.png";
-const quimbee2 = "images/quimbee2.png";
-const quimbee3 = "images/quimbee3.png";
-const quimbee4 = "images/quimbee4.png";
-const quimbee5 = "images/quimbee5.png";
-
 const zeemee1 = "images/zeemee1.png";
 const zeemee2 = "images/zeemee2.png";
-const zeemee3 = "images/zeemee3.png";
-const zeemee4 = "images/zeemee4.png";
-const zeemee5 = "images/zeemee5.png";
 
 const gymbo1 = "images/gymbo1.png";
 const gymbo2 = "images/gymbo2.png";
 
 const carsight = "images/carsight.png";
-const a11ywatch = "images/a11ywatch.png";
-const a11ywatch1 = "images/a11ywatch1.png";
 
 const cx = classNames.bind(styles);
 
@@ -147,6 +136,7 @@ class Tags extends React.Component {
                   frameBorder="0"
                   allow="autoplay; fullscreen"
                   allowFullScreen
+                  title={"Video of A11yWatch initial prototype"}
                 ></iframe>
               </div>
               <div />
@@ -185,7 +175,7 @@ class Tags extends React.Component {
                     <li>WebAssembly</li>
                     <a
                       href="https://www.a11ywatch.com"
-                      style={{ marginBottom: 12 }}
+                      style={{ marginBottom: 12, color: "rgb(30, 64, 175)" }}
                     >
                       <li>View Website</li>
                     </a>
@@ -229,6 +219,7 @@ class Tags extends React.Component {
                     <img
                       className={cx("tags__iframe", "pic1")}
                       src={carsight}
+                      alt={`Image of the carsight find your car app`}
                     />
                   </a>
                 </div>
@@ -265,7 +256,10 @@ class Tags extends React.Component {
                   <ul>
                     <li>React-Native</li>
                     <li>Swift</li>
-                    <a href="https://apps.apple.com/us/app/carsight/id1481029330">
+                    <a
+                      href="https://apps.apple.com/us/app/carsight/id1481029330"
+                      style={{ color: "rgb(30, 64, 175)" }}
+                    >
                       <li>View on App Store</li>
                     </a>
                   </ul>
@@ -297,12 +291,20 @@ class Tags extends React.Component {
               <div className={cx("tags_row")}>
                 <div className={cx("tags_blocks")}>
                   <a href="https://www.zeemee.com/">
-                    <img className={cx("tags__iframe", "pic1")} src={zeemee1} />
+                    <img
+                      className={cx("tags__iframe", "pic1")}
+                      src={zeemee1}
+                      alt={`Zeeme App website page`}
+                    />
                   </a>
                 </div>
                 <div className={cx("tags_blocks")}>
                   <a href="https://www.zeemee.com/">
-                    <img className={cx("tags__iframe")} src={zeemee2} />
+                    <img
+                      className={cx("tags__iframe")}
+                      src={zeemee2}
+                      alt={`Zemee app dashboard page`}
+                    />
                   </a>
                 </div>
               </div>
@@ -330,10 +332,16 @@ class Tags extends React.Component {
                     <li>MYSQL</li>
                     <li>Rails</li>
                     <li>Redis</li>
-                    <a href="https://apps.apple.com/us/app/zeemee/id1044878258">
+                    <a
+                      href="https://apps.apple.com/us/app/zeemee/id1044878258"
+                      style={{ color: "rgb(30, 64, 175)" }}
+                    >
                       <li>View on App Store</li>
                     </a>
-                    <a href="https://play.google.com/store/apps/details?id=com.zeemee.zeemee_android&hl=en">
+                    <a
+                      href="https://play.google.com/store/apps/details?id=com.zeemee.zeemee_android&hl=en"
+                      style={{ color: "rgb(30, 64, 175)" }}
+                    >
                       <li>View on Play Store</li>
                     </a>
                   </ul>
@@ -373,22 +381,38 @@ class Tags extends React.Component {
                 </div>
                 <div className={cx("tags_blocks")}>
                   <a href="https://itunes.apple.com/us/app/meje/id1452941359?mt=8">
-                    <img className={cx("tags__iframe")} src={musific2} />
+                    <img
+                      className={cx("tags__iframe")}
+                      src={musific2}
+                      alt={`Image of the meje app dashboard`}
+                    />
                   </a>
                 </div>
                 <div className={cx("tags_blocks")}>
                   <a href="https://itunes.apple.com/us/app/meje/id1452941359?mt=8">
-                    <img className={cx("tags__iframe")} src={musific3} />
+                    <img
+                      className={cx("tags__iframe")}
+                      src={musific3}
+                      alt={`Image of the meje app music screen`}
+                    />
                   </a>
                 </div>
                 <div className={cx("tags_blocks")}>
                   <a href="https://itunes.apple.com/us/app/meje/id1452941359?mt=8">
-                    <img className={cx("tags__iframe")} src={musific4} />
+                    <img
+                      className={cx("tags__iframe")}
+                      src={musific4}
+                      alt={`Image of the meje app playlist`}
+                    />
                   </a>
                 </div>
                 <div className={cx("tags_blocks")}>
                   <a href="https://itunes.apple.com/us/app/meje/id1452941359?mt=8">
-                    <img className={cx("tags__iframe")} src={musific5} />
+                    <img
+                      className={cx("tags__iframe")}
+                      src={musific5}
+                      alt={`Image of the meje app record`}
+                    />
                   </a>
                 </div>
               </div>
@@ -406,10 +430,16 @@ class Tags extends React.Component {
                     <li>React-Native</li>
                     <li>AWS</li>
                     <li>MYSQL</li>
-                    <a href="https://itunes.apple.com/us/app/meje/id1452941359?mt=8">
+                    <a
+                      href="https://itunes.apple.com/us/app/meje/id1452941359?mt=8"
+                      style={{ color: "rgb(30, 64, 175)" }}
+                    >
                       <li>View on App Store</li>
                     </a>
-                    <a href="https://play.google.com/store/apps/details?id=com.mobile.coinalerts&hl=en">
+                    <a
+                      href="https://play.google.com/store/apps/details?id=com.mobile.coinalerts&hl=en"
+                      style={{ color: "rgb(30, 64, 175)" }}
+                    >
                       <li>View on Play Store</li>
                     </a>
                   </ul>
@@ -443,27 +473,44 @@ class Tags extends React.Component {
                     <img
                       className={cx("tags__iframe", "pic1")}
                       src={coinlist1}
+                      alt={`Image of the coinlist app`}
                     />
                   </a>
                 </div>
                 <div className={cx("tags_blocks")}>
                   <a href="https://itunes.apple.com/us/app/coinalerts/id1441138391?mt=8">
-                    <img className={cx("tags__iframe")} src={coinlist2} />
+                    <img
+                      className={cx("tags__iframe")}
+                      src={coinlist2}
+                      alt={`Image of the coinlist app dashboard`}
+                    />
                   </a>
                 </div>
                 <div className={cx("tags_blocks")}>
                   <a href="https://itunes.apple.com/us/app/coinalerts/id1441138391?mt=8">
-                    <img className={cx("tags__iframe")} src={coinlist3} />
+                    <img
+                      className={cx("tags__iframe")}
+                      src={coinlist3}
+                      alt={`Image of the coinlist app alerts screen`}
+                    />
                   </a>
                 </div>
                 <div className={cx("tags_blocks")}>
                   <a href="https://itunes.apple.com/us/app/coinalerts/id1441138391?mt=8">
-                    <img className={cx("tags__iframe")} src={coinlist4} />
+                    <img
+                      className={cx("tags__iframe")}
+                      src={coinlist4}
+                      alt={`Image of the coinlist app chat screen`}
+                    />
                   </a>
                 </div>
                 <div className={cx("tags_blocks")}>
                   <a href="https://itunes.apple.com/us/app/coinalerts/id1441138391?mt=8">
-                    <img className={cx("tags__iframe")} src={coinlist5} />
+                    <img
+                      className={cx("tags__iframe")}
+                      src={coinlist5}
+                      alt={`Image of the coinlist app manage tracking`}
+                    />
                   </a>
                 </div>
               </div>
@@ -480,97 +527,16 @@ class Tags extends React.Component {
                     <li>React-Native</li>
                     <li>AWS</li>
                     <li>Oracle DB</li>
-                    <a href="https://itunes.apple.com/us/app/coinalerts-crypto-tracker/id1441138391?mt=8">
+                    <a
+                      href="https://itunes.apple.com/us/app/coinalerts-crypto-tracker/id1441138391?mt=8"
+                      style={{ color: "rgb(30, 64, 175)" }}
+                    >
                       <li>View on App Store</li>
                     </a>
-                    <a href="https://play.google.com/store/apps/details?id=com.mobile.coinalerts&hl=en">
-                      <li>View on Play Store</li>
-                    </a>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <br />
-            <div className={cx("tags_subContainer")}>
-              <div className={cx("tags__header")}>
-                <div
-                  style={{
-                    flexDirection: "row",
-                    paddingRight: 14,
-                    justifyContent: "center",
-                  }}
-                >
-                  <div>
-                    <a href="https://itunes.apple.com/us/app/quimbee/id1001711683?mt=8">
-                      <h3 style={{ fontSize: 16 }}>Quimbee</h3>
-                    </a>
-                    <div className={cx("tags__headerSub")}>
-                      Quimbee is one of the most widely used and respected study
-                      aids for law students. With a massive and growing library
-                      of case briefs, video lessons, multiple choice questions,
-                      Quimbee helps its members achieve academic success in law
-                      school.
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className={cx("tags_row")}>
-                <div className={cx("tags_blocks")}>
-                  <a href="https://itunes.apple.com/us/app/quimbee/id1001711683?mt=8">
-                    <img
-                      className={cx("tags__iframe", "pic1")}
-                      src={quimbee1}
-                    />
-                  </a>
-                </div>
-                <div className={cx("tags_blocks")}>
-                  <a href="https://itunes.apple.com/us/app/quimbee/id1001711683?mt=8">
-                    <img className={cx("tags__iframe")} src={quimbee2} />
-                  </a>
-                </div>
-                <div className={cx("tags_blocks")}>
-                  <a href="https://itunes.apple.com/us/app/quimbee/id1001711683?mt=8">
-                    <img className={cx("tags__iframe")} src={quimbee3} />
-                  </a>
-                </div>
-                <div className={cx("tags_blocks")}>
-                  <a href="https://itunes.apple.com/us/app/quimbee/id1001711683?mt=8">
-                    <img className={cx("tags__iframe")} src={quimbee4} />
-                  </a>
-                </div>
-                <div className={cx("tags_blocks")}>
-                  <a href="https://itunes.apple.com/us/app/quimbee/id1001711683?mt=8">
-                    <img className={cx("tags__iframe")} src={quimbee5} />
-                  </a>
-                </div>
-              </div>
-              <div className={cx("tags_blockBottom")}>
-                <div className={cx("tags_info")}>
-                  <div>About the Project</div>
-                  <p>
-                    Quimbee is law school study toolkit that helps students pass
-                    the bar exam.
-                  </p>
-                  <div>Part in project</div>
-                  <p>
-                    I joined the project to help bring up the average app store
-                    rating with a strict deadlines in place. While working on
-                    the project the main focus for me was the mobile application
-                    and the devops. I made varius automated tools for testing
-                    and daily deployments to the beta/app store including
-                    CircleCI and Fastlane. My main priority was to stabilize the
-                    project from crashes and bring in tools like CodePush to
-                    provide a hot deploy to devices to fix js issues if needed.
-                    It took 4 months to go from 1 - 4.9 stars on the app store
-                    and 1 - 4.4 stars on the play store.
-                  </p>
-                  <div>Made using</div>
-                  <ul>
-                    <li>React-Native</li>
-                    <a href="https://itunes.apple.com/us/app/quimbee/id1001711683?mt=8">
-                      <li>View on App Store</li>
-                    </a>
-                    <a href="https://play.google.com/store/apps/details?id=com.Quimbee.mobile&hl=en_US">
+                    <a
+                      href="https://play.google.com/store/apps/details?id=com.mobile.coinalerts&hl=en"
+                      style={{ color: "rgb(30, 64, 175)" }}
+                    >
                       <li>View on Play Store</li>
                     </a>
                   </ul>
@@ -607,22 +573,46 @@ class Tags extends React.Component {
               <div className={cx("tags_row")}>
                 <div className={cx("tags_blocks")}>
                   <a href="https://itunes.apple.com/us/app/arcus-load-management/id1331606155?mt=8">
-                    <img className={cx("tags__iframe", "pic1")} src={arcus1} />
+                    <img
+                      className={cx("tags__iframe", "pic1")}
+                      src={arcus1}
+                      alt={`Image of the Arcus Load management app dashboard screen in ${
+                        !this.state.arcusOs ? "android" : "iOS"
+                      }`}
+                    />
                   </a>
                 </div>
                 <div className={cx("tags_blocks")}>
                   <a href="https://itunes.apple.com/us/app/arcus-load-management/id1331606155?mt=8">
-                    <img className={cx("tags__iframe")} src={arcus2} />
+                    <img
+                      className={cx("tags__iframe")}
+                      src={arcus2}
+                      alt={`Image of the Arcus Load management freight view screen in ${
+                        !this.state.arcusOs ? "android" : "iOS"
+                      }`}
+                    />
                   </a>
                 </div>
                 <div className={cx("tags_blocks")}>
                   <a href="https://itunes.apple.com/us/app/arcus-load-management/id1331606155?mt=8">
-                    <img className={cx("tags__iframe")} src={arcus3} />
+                    <img
+                      className={cx("tags__iframe")}
+                      src={arcus3}
+                      alt={`Image of the Arcus Load management tracking  screen in ${
+                        !this.state.arcusOs ? "android" : "iOS"
+                      }`}
+                    />
                   </a>
                 </div>
                 <div className={cx("tags_blocks")}>
                   <a href="https://itunes.apple.com/us/app/arcus-load-management/id1331606155?mt=8">
-                    <img className={cx("tags__iframe")} src={arcus4} />
+                    <img
+                      className={cx("tags__iframe")}
+                      src={arcus4}
+                      alt={`Image of the Arcus Load management profile screen in ${
+                        !this.state.arcusOs ? "android" : "iOS"
+                      }`}
+                    />
                   </a>
                 </div>
               </div>
@@ -649,21 +639,20 @@ class Tags extends React.Component {
                     <li>Java</li>
                     <li>Obj-C</li>
                     <li>MySql</li>
-                    <a href="https://itunes.apple.com/us/app/arcus-load-management/id1331606155?mt=8">
+                    <a
+                      href="https://itunes.apple.com/us/app/arcus-load-management/id1331606155?mt=8"
+                      style={{ color: "rgb(30, 64, 175)" }}
+                    >
                       <li>View on App Store</li>
                     </a>
-                    <a href="https://play.google.com/store/apps/details?id=com.arcus">
+                    <a
+                      href="https://play.google.com/store/apps/details?id=com.arcus"
+                      style={{ color: "rgb(30, 64, 175)" }}
+                    >
                       <li>View on Play Store</li>
                     </a>
                   </ul>
                 </div>
-                <iframe
-                  width="50%"
-                  height="100%"
-                  src="https://www.youtube.com/embed/2cp0iPQyvLk"
-                  frameBorder="0"
-                  allowFullScreen
-                />
               </div>
             </div>
             <div className={cx("tags_subContainer")}>
@@ -678,12 +667,20 @@ class Tags extends React.Component {
               <div className={cx("tags_row")}>
                 <div className={cx("tags_blocks")}>
                   <a href="https://joinknack.com">
-                    <img className={cx("tags__iframe")} src={knackD} />
+                    <img
+                      className={cx("tags__iframe")}
+                      src={knackD}
+                      alt={`Image of the Knack website in 2016`}
+                    />
                   </a>
                 </div>
                 <div className={cx("tags_blocks")}>
                   <a href="https://joinknack.com">
-                    <img className={cx("tags__iframe", "pic1")} src={knackM} />
+                    <img
+                      className={cx("tags__iframe", "pic1")}
+                      src={knackM}
+                      alt={`Image of the Knack app in 2016`}
+                    />
                   </a>
                 </div>
               </div>
@@ -717,56 +714,7 @@ class Tags extends React.Component {
                   src="https://www.youtube.com/embed/f5I07PZGwLA"
                   frameBorder="0"
                   allowFullScreen
-                />
-              </div>
-            </div>
-            <br />
-            <br />
-            <div className={cx("tags_subContainer")}>
-              <div className={cx("tags__header")}>
-                <a href="https://joinreporttracker.com">
-                  <h3 style={{ fontSize: 16 }}>ReportTracker</h3>
-                </a>
-                <div className={cx("tags__headerSub")}>
-                  The effective way to manage your business.
-                </div>
-              </div>
-              <div className={cx("tags_row")}>
-                <div className={cx("tags_blocks")}>
-                  <a href="https://joinreporttracker.com">
-                    <img className={cx("tags__iframe", "pic1")} src={reportM} />
-                  </a>
-                </div>
-                <div className={cx("tags_blocks")}>
-                  <a href="https://joinreporttracker.com">
-                    <img className={cx("tags__iframe")} src={reportD} />
-                  </a>
-                </div>
-              </div>
-              <div className={cx("tags_blockBottom")}>
-                <div className={cx("tags_info")}>
-                  <div>About the Project</div>
-                  <p>
-                    ReportTracker is cross platform application that is setup in
-                    branches to control and run your team.
-                  </p>
-                  <p>Solo project front to back</p>
-                  <div>Made using</div>
-                  <ul>
-                    <li>React-Native</li>
-                    <li>React</li>
-                    <li>Java</li>
-                    <li>NODE</li>
-                    <li>MONGO</li>
-                    <li>AWS</li>
-                  </ul>
-                </div>
-                <iframe
-                  width="50%"
-                  height="100%"
-                  src="https://www.youtube.com/embed/aTPazOqsH-w"
-                  frameBorder="0"
-                  allowFullScreen
+                  title={"Demo of knack tutoring app."}
                 />
               </div>
             </div>
@@ -784,12 +732,20 @@ class Tags extends React.Component {
               <div className={cx("tags_row")}>
                 <div className={cx("tags_blocks")}>
                   <a href="http://gymbo.fit">
-                    <img className={cx("tags__iframe", "pic1")} src={gymbo1} />
+                    <img
+                      className={cx("tags__iframe", "pic1")}
+                      src={gymbo1}
+                      alt={"Gymbo app website"}
+                    />
                   </a>
                 </div>
                 <div className={cx("tags_blocks")}>
                   <a href="http://gymbo.fit">
-                    <img className={cx("tags__iframe")} src={gymbo2} />
+                    <img
+                      className={cx("tags__iframe")}
+                      src={gymbo2}
+                      alt={"Gymbo app central view"}
+                    />
                   </a>
                 </div>
               </div>
@@ -816,6 +772,7 @@ class Tags extends React.Component {
                   height="100%"
                   src="https://www.youtube.com/embed/y2vDDr9_HVc"
                   frameBorder="0"
+                  title="Demo of Gymbo fitness app"
                   allowFullScreen
                 />
               </div>
@@ -834,12 +791,20 @@ class Tags extends React.Component {
               <div className={cx("tags_row")}>
                 <div className={cx("tags_blocks")}>
                   <a href="https://twitchoverlays.herokuapp.com/#/">
-                    <img className={cx("tags__iframe", "pic1")} src={twitchD} />
+                    <img
+                      className={cx("tags__iframe", "pic1")}
+                      src={twitchD}
+                      alt={"Twitch overlay website screenshot"}
+                    />
                   </a>
                 </div>
                 <div className={cx("tags_blocks")}>
                   <a href="https://twitchoverlays.herokuapp.com/#/">
-                    <img className={cx("tags__iframe")} src={twitchM} />
+                    <img
+                      className={cx("tags__iframe")}
+                      src={twitchM}
+                      alt={"Twitch overlay screen edit"}
+                    />
                   </a>
                 </div>
               </div>
@@ -868,6 +833,7 @@ class Tags extends React.Component {
                   src="https://www.youtube.com/embed/ZehwRHdZ4ZQ"
                   frameBorder="0"
                   allowFullScreen
+                  title={"Demo of realtime stream overlays for Twitch.tv"}
                 />
               </div>
               <div className={cx("tags_blockBottom")}>
@@ -875,7 +841,10 @@ class Tags extends React.Component {
                   <div>Other solo apps</div>
                   <ul>
                     <li>
-                      <a href="https://apps.apple.com/us/app/sports-trivia/id1444613045">
+                      <a
+                        href="https://apps.apple.com/us/app/sports-trivia/id1444613045"
+                        style={{ color: "rgb(30, 64, 175)" }}
+                      >
                         Sports-Trivia (4 stars)
                       </a>
                       <p>

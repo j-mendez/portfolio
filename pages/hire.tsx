@@ -30,21 +30,22 @@ const Hire = () => {
               </p>
               <p>
                 To quickly get in touch with me, email me at{" "}
-                <a href="mailto:jeff@a11ywatch.com">jeff@a11ywatch.com</a>. My
-                rates start at 200$/hr but, I am willing to negotiate with
+                <a
+                  href="mailto:jeff@a11ywatch.com"
+                  style={{ color: "rgb(30, 64, 175)" }}
+                >
+                  jeff@a11ywatch.com
+                </a>
+                . My rates start at 200$/hr but, I am willing to negotiate with
                 smaller clients or long term projects.
               </p>
-              <h2 id="php-%2F-mysql-backend-development">
-                React and React-Native
-              </h2>
+              <h2>React and React-Native</h2>
               <p>
                 Currently I am using react on a day to day basis to leverage web
                 and native development. I actually have been using react-native
                 since initial launch.
               </p>
-              <h3 id="php-%2F-mysql-backend-development">
-                PHP / Python / MySQL / Node / Backend Development
-              </h3>
+              <h3>PHP / Python / MySQL / Node / Backend Development</h3>
               <p>
                 I have extensive experience with PHP, Node and Python. I am
                 familiar with multiple frameworks with my go-to being Hack/HHVM
@@ -52,7 +53,10 @@ const Hire = () => {
               </p>
               <p>
                 Here is a list of my projects that I have contributed to{" "}
-                <a href="https://github.com/j-mendez?tab=repositories">
+                <a
+                  href="https://github.com/j-mendez?tab=repositories"
+                  style={{ color: "rgb(30, 64, 175)" }}
+                >
                   free, open source projects
                 </a>{" "}
                 and have contributed to many more. I do not do open-source much
@@ -67,7 +71,7 @@ const Hire = () => {
                 While bringing the product between all of its stages in a fast
                 and continous pipeline to keep downtime across updates minimal.
               </p>
-              <p id="build-lifecycle-%2F-continuous-delivery-%2F-continuous-integration">
+              <p>
                 Build Lifecycle / Continuous Delivery / Continuous Integration
               </p>
               <p>
@@ -99,7 +103,12 @@ const Hire = () => {
               <ul>
                 <li>
                   Email -{" "}
-                  <a href="mailto:jeff@a11ywatch.com">jeff@a11ywatch.com</a>
+                  <a
+                    href="mailto:jeff@a11ywatch.com"
+                    style={{ color: "rgb(30, 64, 175)" }}
+                  >
+                    jeff@a11ywatch.com
+                  </a>
                 </li>
               </ul>
               <p>I will answer almost immediately!</p>
