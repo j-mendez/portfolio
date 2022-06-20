@@ -1,8 +1,9 @@
 import React from "react";
+import Layout from "../components/layout";
 
 const KOPrivacy = () => {
   return (
-    <div>
+    <Layout>
       <h1>KO - endless battle</h1>
       <div>
         <h3>Privacy Policy</h3>
@@ -14,7 +15,7 @@ const KOPrivacy = () => {
           issues.
         </p>
       </div>
-    </div>
+    </Layout>
   );
 };
 

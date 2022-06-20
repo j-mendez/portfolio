@@ -1,8 +1,9 @@
 import React from "react";
+import Layout from "../components/layout";
 
 const CoinAlerts = () => {
   return (
-    <div>
+    <Layout>
       <h1>Carsight</h1>
       <div>
         <h3>Privacy Policy</h3>
@@ -21,7 +22,7 @@ const CoinAlerts = () => {
       <div>
         <p>Contact me at jeffmendez19@gmail.com this email will change soon.</p>
       </div>
-    </div>
+    </Layout>
   );
 };
 

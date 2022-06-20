@@ -1,8 +1,9 @@
 import React from "react";
+import Layout from "../components/layout";
 
 const CoinAlerts = () => {
   return (
-    <div>
+    <Layout>
       <h1>CoinAlerts</h1>
       <div>
         <p>We do not take any of your data</p>
@@ -13,7 +14,7 @@ const CoinAlerts = () => {
           project kicks off
         </p>
       </div>
-    </div>
+    </Layout>
   );
 };
 
