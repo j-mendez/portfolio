@@ -1,6 +1,4 @@
 import Head from "next/head";
-import styles from "./layout.module.css";
-import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 import Navigation from "./navigation";
 import { Fragment, ReactNode } from "react";
@@ -35,45 +33,45 @@ export default function Layout({
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <Navigation />
-      <div className={styles.container}>
-        <header className={styles.header}>
-          {home ? (
-            <>
+      <header>
+        {home ? (
+          <>
+            <div style={{ paddingTop: 5 }}>
               <img
                 src="/images/profile.jpg"
                 height={144}
                 width={144}
                 alt={name}
               />
-              <h1>{name}</h1>
-            </>
-          ) : (
-            <>
-              <Link href="/">
-                <img
-                  src="/images/profile.jpg"
-                  height={108}
-                  width={108}
-                  alt={name}
-                />
-              </Link>
-              <h2>
-                <Link href="/">
-                  <a>{name}</a>
-                </Link>
-              </h2>
-            </>
-          )}
-        </header>
-        <main>{children}</main>
-        {!home && (
-          <div>
+            </div>
+            <h1>{name}</h1>
+          </>
+        ) : (
+          <>
             <Link href="/">
-              <a>← Back to home</a>
+              <img
+                src="/images/profile.jpg"
+                height={108}
+                width={108}
+                alt={name}
+              />
             </Link>
-          </div>
+            <h2>
+              <Link href="/">
+                <a>{name}</a>
+              </Link>
+            </h2>
+          </>
         )}
-      </div>
+      </header>
+      <main>{children}</main>
+      {!home && (
+        <div>
+          <Link href="/">
+            <a>← Back to home</a>
+          </Link>
+        </div>
+      )}
     </Fragment>
   );
 }
