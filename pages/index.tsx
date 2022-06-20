@@ -20,11 +20,7 @@ export default function Home() {
         </p>
         <p>
           Checkout{" "}
-          <a
-            href="https://a11ywatch.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://a11ywatch.com" target="_blank" rel="external">
             A11yWatch
           </a>{" "}
           to improve your web inclusion.

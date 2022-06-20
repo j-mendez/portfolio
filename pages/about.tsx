@@ -6,7 +6,7 @@ const About = () => {
   return (
     <Layout>
       <Head>
-        <title>About Jeff Mendez and personal enjoyments</title>
+        <title>About Jeff Mendez and personal life</title>
         <meta
           name="description"
           content={
