@@ -97,7 +97,7 @@ class Tags extends React.Component {
                     href="https://a11ywatch.com"
                     style={{ color: "rgb(30, 64, 175)" }}
                   >
-                    View A11yWatch
+                    Visit A11yWatch
                   </a>
                 </li>
               </ul>
@@ -134,6 +134,7 @@ class Tags extends React.Component {
               <div style={{ flex: 1 }}>
                 <img
                   src={carsight}
+                  style={videoStyles}
                   alt={`Image of the carsight find your car app`}
                 />
               </div>
@@ -198,15 +199,12 @@ class Tags extends React.Component {
               </div>
             </div>
             <div>
-              <a
-                href="https://www.zeemee.com/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <img src={zeemee1} alt={`Zeeme App website page`} />
-              </a>
+              <img
+                src={zeemee1}
+                alt={`Zeeme App website page`}
+                style={videoStyles}
+              />
             </div>
-            <div />
             <div>
               <div>
                 <div>About the Project</div>
@@ -273,8 +271,6 @@ class Tags extends React.Component {
                 </div>
               </div>
             </div>
-
-            <div />
             <div>
               <div>
                 <div>About the Project</div>
