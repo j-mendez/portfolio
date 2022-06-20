@@ -2,8 +2,6 @@ import React from "react";
 import Head from "next/head";
 import Layout, { siteTitle } from "../components/layout";
 
-const coinlist1 = "images/coinlist1.png";
-const musific1 = "images/musific1.png";
 const zeemee1 = "images/zeemee1.png";
 const carsight = "images/carsight.png";
 
@@ -164,7 +162,7 @@ class Tags extends React.Component {
                   Carsight is a mobile app that allows you to find your car in
                   augmented reality without having to press a manual park
                   button. Useful for when you are in a city and need to park in
-                  elevated parking lots. ( Android coming soon, maybe. )
+                  elevated parking lots.
                 </p>
                 <div>Personal Project</div>
                 <div>Made using</div>
@@ -177,27 +175,25 @@ class Tags extends React.Component {
           </div>
           <br />
           <div>
-            <div>
-              <div
-                style={{
-                  flexDirection: "row",
-                  paddingRight: 14,
-                  justifyContent: "center",
-                }}
-              >
+            <div
+              style={{
+                flexDirection: "row",
+                paddingRight: 14,
+                justifyContent: "center",
+              }}
+            >
+              <div>
+                <a
+                  href="https://www.zeemee.com/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <h3 style={{ fontSize: 16 }}>Zeemee</h3>
+                </a>
                 <div>
-                  <a
-                    href="https://www.zeemee.com/"
-                    rel="noreferrer"
-                    target="_blank"
-                  >
-                    <h3 style={{ fontSize: 16 }}>Zeemee</h3>
-                  </a>
-                  <div>
-                    Apply with confidence Join the #1 app to discover colleges,
-                    stand out in your applications, and connect with other
-                    students.
-                  </div>
+                  Apply with confidence Join the #1 app to discover colleges,
+                  stand out in your applications, and connect with other
+                  students.
                 </div>
               </div>
             </div>
