@@ -99,12 +99,13 @@ class Tags extends React.Component {
                     href="https://a11ywatch.com"
                     style={{ color: "rgb(30, 64, 175)" }}
                   >
-                    View Website
+                    View A11yWatch
                   </a>
                 </li>
               </ul>
               <a
                 href="https://www.producthunt.com/posts/a11ywatch?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-a11ywatch"
+                rel="noreferrer"
                 target="_blank"
               >
                 <img
@@ -126,21 +127,17 @@ class Tags extends React.Component {
                 }}
               >
                 <div>
-                  <a href="https://apps.apple.com/us/app/carsight/id1481029330">
-                    <h3 style={{ fontSize: 16 }}>Carsight</h3>
-                  </a>
+                  <h3 style={{ fontSize: 16 }}>Carsight</h3>
                   <div>Never lose where your car is parked again.</div>
                 </div>
               </div>
             </div>
             <div>
               <div style={{ flex: 1 }}>
-                <a href="https://apps.apple.com/us/app/carsight/id1481029330">
-                  <img
-                    src={carsight}
-                    alt={`Image of the carsight find your car app`}
-                  />
-                </a>
+                <img
+                  src={carsight}
+                  alt={`Image of the carsight find your car app`}
+                />
               </div>
               <div
                 style={{
@@ -174,12 +171,6 @@ class Tags extends React.Component {
                 <ul>
                   <li>React-Native</li>
                   <li>Swift</li>
-                  <a
-                    href="https://apps.apple.com/us/app/carsight/id1481029330"
-                    style={{ color: "rgb(30, 64, 175)" }}
-                  >
-                    <li>View on App Store</li>
-                  </a>
                 </ul>
               </div>
             </div>
@@ -195,7 +186,11 @@ class Tags extends React.Component {
                 }}
               >
                 <div>
-                  <a href="https://www.zeemee.com/">
+                  <a
+                    href="https://www.zeemee.com/"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
                     <h3 style={{ fontSize: 16 }}>Zeemee</h3>
                   </a>
                   <div>
@@ -207,7 +202,11 @@ class Tags extends React.Component {
               </div>
             </div>
             <div>
-              <a href="https://www.zeemee.com/">
+              <a
+                href="https://www.zeemee.com/"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <img src={zeemee1} alt={`Zeeme App website page`} />
               </a>
             </div>
@@ -237,12 +236,16 @@ class Tags extends React.Component {
                   <a
                     href="https://apps.apple.com/us/app/zeemee/id1044878258"
                     style={{ color: "rgb(30, 64, 175)" }}
+                    rel="noreferrer"
+                    target="_blank"
                   >
                     <li>View on App Store</li>
                   </a>
                   <a
                     href="https://play.google.com/store/apps/details?id=com.zeemee.zeemee_android&hl=en"
                     style={{ color: "rgb(30, 64, 175)" }}
+                    rel="noreferrer"
+                    target="_blank"
                   >
                     <li>View on Play Store</li>
                   </a>
@@ -261,123 +264,11 @@ class Tags extends React.Component {
                 }}
               >
                 <div>
-                  <a href="https://itunes.apple.com/us/app/meje/id1452941359?mt=8">
-                    <p style={{ fontSize: 16 }}>Meje</p>
-                  </a>
-                  <div>
-                    Enjoy the latest songs as they come out without having to
-                    search for them. Record your remix or cover for millions of
-                    songs with ease.
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div>
-                <a href="https://itunes.apple.com/us/app/meje/id1452941359?mt=8">
-                  <img src={musific1} />
-                </a>
-              </div>
-            </div>
-            <div />
-            <div>
-              <div>
-                <div>About the Project</div>
-                <p>
-                  Meje is a music player that allows you to record voice overs
-                  to create a song or just stream music.
-                </p>
-                <p>Personal project</p>
-                <div>Made using</div>
-                <ul>
-                  <li>React-Native</li>
-                  <li>AWS</li>
-                  <li>MYSQL</li>
                   <a
-                    href="https://itunes.apple.com/us/app/meje/id1452941359?mt=8"
-                    style={{ color: "rgb(30, 64, 175)" }}
+                    href="https://itunes.apple.com/us/app/arcus-load-management/id1331606155?mt=8"
+                    rel="noreferrer"
+                    target="_blank"
                   >
-                    <li>View on App Store</li>
-                  </a>
-                  <a
-                    href="https://play.google.com/store/apps/details?id=com.mobile.coinalerts&hl=en"
-                    style={{ color: "rgb(30, 64, 175)" }}
-                  >
-                    <li>View on Play Store</li>
-                  </a>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <br />
-          <div>
-            <div>
-              <div
-                style={{
-                  flexDirection: "row",
-                  paddingRight: 14,
-                  justifyContent: "center",
-                }}
-              >
-                <div>
-                  <a href="https://itunes.apple.com/us/app/coinalerts/id1441138391?mt=8">
-                    <h3 style={{ fontSize: 16 }}>CoinAlerts</h3>
-                  </a>
-                  <div>
-                    Get notified at the right time for your cryptocurrency. All
-                    in one cryptocurrency toolkit.
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div>
-                <a href="https://itunes.apple.com/us/app/coinalerts/id1441138391?mt=8">
-                  <img src={coinlist1} alt={`Image of the coinlist app`} />
-                </a>
-              </div>
-            </div>
-            <div>
-              <div>
-                <div>About the Project</div>
-                <p>
-                  CoinAlerts is a cryptocurrency community and tool to help you
-                  get notified on specefic price points.
-                </p>
-                <p>Personal project</p>
-                <div>Made using</div>
-                <ul>
-                  <li>React-Native</li>
-                  <li>AWS</li>
-                  <li>Oracle DB</li>
-                  <a
-                    href="https://itunes.apple.com/us/app/coinalerts-crypto-tracker/id1441138391?mt=8"
-                    style={{ color: "rgb(30, 64, 175)" }}
-                  >
-                    <li>View on App Store</li>
-                  </a>
-                  <a
-                    href="https://play.google.com/store/apps/details?id=com.mobile.coinalerts&hl=en"
-                    style={{ color: "rgb(30, 64, 175)" }}
-                  >
-                    <li>View on Play Store</li>
-                  </a>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <br />
-          <div>
-            <div>
-              <div
-                style={{
-                  flexDirection: "row",
-                  paddingRight: 14,
-                  justifyContent: "center",
-                }}
-              >
-                <div>
-                  <a href="https://itunes.apple.com/us/app/arcus-load-management/id1331606155?mt=8">
                     <h3 style={{ fontSize: 16 }}>Arcus</h3>
                   </a>
                   <div>
@@ -412,12 +303,16 @@ class Tags extends React.Component {
                   <a
                     href="https://itunes.apple.com/us/app/arcus-load-management/id1331606155?mt=8"
                     style={{ color: "rgb(30, 64, 175)" }}
+                    rel="noreferrer"
+                    target="_blank"
                   >
                     <li>View on App Store</li>
                   </a>
                   <a
                     href="https://play.google.com/store/apps/details?id=com.arcus"
                     style={{ color: "rgb(30, 64, 175)" }}
+                    rel="noreferrer"
+                    target="_blank"
                   >
                     <li>View on Play Store</li>
                   </a>
@@ -427,7 +322,7 @@ class Tags extends React.Component {
           </div>
           <div>
             <div>
-              <a href="https://joinknack.com">
+              <a href="https://joinknack.com" rel="noreferrer" target="_blank">
                 <h3 style={{ fontSize: 16 }}>Knack</h3>
               </a>
               <div>Find a tutor for any college course.</div>
