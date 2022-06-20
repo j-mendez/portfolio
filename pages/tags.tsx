@@ -7,6 +7,7 @@ const carsight = "images/carsight.png";
 
 const videoStyles = {
   maxHeight: "55.5vh",
+  maxWidth: "95vw",
   minHeight: "38vh",
   minWidth: "100%",
   flex: 1,
