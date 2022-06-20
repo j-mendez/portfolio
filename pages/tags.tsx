@@ -23,24 +23,22 @@ class Tags extends React.Component {
           <title>{siteTitle + " - Projects"}</title>
         </Head>
         <div>
-          <h1>Projects</h1>
-          <div>
-            <div
-              style={{
-                flexDirection: "row",
-                paddingRight: 14,
-                justifyContent: "center",
-              }}
-            >
+          <h1>Some cool projects</h1>
+          <div
+            style={{
+              flexDirection: "row",
+              paddingRight: 14,
+              justifyContent: "center",
+            }}
+          >
+            <div>
+              <a href="https://a11ywatch.com">
+                <h3 style={{ fontSize: 16 }}>A11yWatch</h3>
+              </a>
               <div>
-                <a href="https://a11ywatch.com">
-                  <h3 style={{ fontSize: 16 }}>A11yWatch</h3>
-                </a>
-                <div>
-                  Improve your website inclusiveness and prevent your page from
-                  having drastic accessibility problems using artificial
-                  intelligence.
-                </div>
+                Improve your website inclusiveness and prevent your page from
+                having drastic accessibility problems using artificial
+                intelligence.
               </div>
             </div>
           </div>
@@ -50,6 +48,8 @@ class Tags extends React.Component {
               boxShadow: "none",
               border: 0,
               flex: 1,
+              paddingTop: 10,
+              paddingBottom: 10,
             }}
           >
             <iframe
@@ -87,8 +87,7 @@ class Tags extends React.Component {
               <ul style={{ marginBottom: 12 }}>
                 <li>React</li>
                 <li>Next.js</li>
-                <li>Graphql</li>
-                <li>Mongo</li>
+                <li>GraphQL</li>
                 <li>Node</li>
                 <li>TensorFlow</li>
                 <li>Rust</li>
@@ -117,18 +116,16 @@ class Tags extends React.Component {
           </div>
           <br />
           <div>
-            <div>
-              <div
-                style={{
-                  flexDirection: "row",
-                  paddingRight: 14,
-                  justifyContent: "center",
-                }}
-              >
-                <div>
-                  <h3 style={{ fontSize: 16 }}>Carsight</h3>
-                  <div>Never lose where your car is parked again.</div>
-                </div>
+            <div
+              style={{
+                flexDirection: "row",
+                paddingRight: 14,
+                justifyContent: "center",
+              }}
+            >
+              <div>
+                <h3 style={{ fontSize: 16 }}>Carsight</h3>
+                <div>Never lose where your car is parked again.</div>
               </div>
             </div>
             <div>
@@ -158,21 +155,19 @@ class Tags extends React.Component {
             </div>
             <div />
             <div>
-              <div>
-                <div>About the Project</div>
-                <p>
-                  Carsight is a mobile app that allows you to find your car in
-                  augmented reality without having to press a manual park
-                  button. Useful for when you are in a city and need to park in
-                  elevated parking lots.
-                </p>
-                <div>Personal Project</div>
-                <div>Made using</div>
-                <ul>
-                  <li>React-Native</li>
-                  <li>Swift</li>
-                </ul>
-              </div>
+              <div>About the Project</div>
+              <p>
+                Carsight is a mobile app that allows you to find your car in
+                augmented reality without having to press a manual park button.
+                Useful for when you are in a city and need to park in elevated
+                parking lots.
+              </p>
+              <div>Personal Project</div>
+              <div>Made using</div>
+              <ul>
+                <li>React-Native</li>
+                <li>Swift</li>
+              </ul>
             </div>
           </div>
           <br />
@@ -339,8 +334,8 @@ class Tags extends React.Component {
                   <li>React-Native</li>
                   <li>React</li>
                   <li>PHP</li>
-                  <li>RELAY</li>
-                  <li>GRAPHQL</li>
+                  <li>Relay</li>
+                  <li>GraphQL</li>
                   <li>MySql</li>
                   <li>Realm</li>
                 </ul>
