@@ -28,7 +28,7 @@ const About = () => {
           </p>
         </div>
         <div>
-          <p>Contact me at jeff@a11ywatch.com</p>
+          <a href={"jeff@a11ywatch.com"}>Contact me at jeff@a11ywatch.com</a>
           <p>
             My github is{" "}
             <a
@@ -37,7 +37,7 @@ const About = () => {
             >
               j-mendez
             </a>
-            . I have contributed to varius react-native projects including the
+            . I have contributed to varios react-native projects including the
             source.
           </p>
         </div>
