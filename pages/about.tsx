@@ -1,16 +1,12 @@
 import React from "react";
-import classNames from "classnames/bind";
-import styles from "../styles/components/about.module.scss";
 import Layout from "../components/layout";
 import Head from "next/head";
-
-const cx = classNames.bind(styles);
 
 const About = () => {
   return (
     <Layout>
       <Head>
-        <title>About Jeff Mendez and personal enjoyments </title>
+        <title>About Jeff Mendez and personal enjoyments</title>
         <meta
           name="description"
           content={
@@ -18,9 +14,9 @@ const About = () => {
           }
         />
       </Head>
-      <div className={cx("about")}>
+      <div>
         <h1>About Jeff Mendez</h1>
-        <div className={cx("about__description")}>
+        <div>
           <p>
             I am a Florida-based software engineer that loves everything about
             building things. I specialize in security, devops, data intensive
@@ -31,7 +27,7 @@ const About = () => {
             should get in touch!
           </p>
         </div>
-        <div className={cx("about__contribute")}>
+        <div>
           <p>Contact me at jeff@a11ywatch.com</p>
           <p>
             My github is{" "}

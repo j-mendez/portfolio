@@ -1,40 +1,28 @@
-import React from "react"
-import Link from "next/link"
-import classNames from "classnames/bind"
-import styles from "../styles/components/navigation.module.scss"
+import React from "react";
+import Link from "next/link";
 
-const cx = classNames.bind(styles)
-
-const Navigation = ({ user }: { user?: any }) => {
-  // styles["navigation__item--active"]
-
+const Navigation = () => {
   const links = [
+    { href: "/", name: "Jeff Mendez" },
     { href: "/about", name: "About" },
-    { href: "/hire", name: "Hire Me" },
-    { href: "/tags", name: "Projects" }
-  ]
+    { href: "/tags", name: "Projects" },
+  ];
 
   return (
-    <nav className={styles.navigation} role="navigation">
-      <Link href="/">
-        <a
-          className={cx(
-            styles.navigation__item,
-            styles["navigation__item--logo"]
-          )}
-        >
-          Jeff Mendez
-        </a>
-      </Link>
-      {links.map(({ href, name }: { href: string; name: string }) => {
-        return (
-          <Link href={href} key={name}>
-            <a className={styles.navigation__item}>{name}</a>
-          </Link>
-        )
-      })}
+    <nav role="navigation" style={{ borderBottom: "1px solid #ccc" }}>
+      <ol>
+        {links.map(({ href, name }: { href: string; name: string }) => {
+          return (
+            <li style={{ marginRight: 6, display: "inline-block" }} key={href}>
+              <Link href={href} key={name}>
+                <a style={{ padding: "0.2em" }}>{name}</a>
+              </Link>
+            </li>
+          );
+        })}
+      </ol>
     </nav>
-  )
-}
+  );
+};
 
-export default Navigation
+export default Navigation;

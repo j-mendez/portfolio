@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Layout, { siteTitle } from "../components/layout";
-import utilStyles from "../styles/utils.module.css";
 
 export default function Home() {
   return (
@@ -14,7 +13,7 @@ export default function Home() {
           }
         />
       </Head>
-      <section className={utilStyles.headingMd}>
+      <section>
         <p>
           Hi, my name is Jeff Mendez and I am software engineer and Founder of
           A11yWatch a web accessibility improvement suite.
@@ -41,6 +40,13 @@ export default function Home() {
           </a>{" "}
           for free.
         </p>
+        <a
+          href="https://github.com/j-mendez"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Github
+        </a>{" "}
       </section>
     </Layout>
   );

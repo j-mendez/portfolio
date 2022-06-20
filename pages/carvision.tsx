@@ -1,17 +1,14 @@
-import classNames from "classnames/bind"
-import styles from "../styles/components/about.module.scss"
-
-const cx = classNames.bind(styles)
+import React from "react";
 
 const CoinAlerts = () => {
   return (
-    <div className={cx("about")}>
-      <h1 className={cx("about__header")}>Carsight</h1>
-      <div className={cx("about__description")}>
+    <div>
+      <h1>Carsight</h1>
+      <div>
         <h3>Privacy Policy</h3>
         <p>We do not take any of your data</p>
       </div>
-      <div className={cx("about__description")}>
+      <div>
         <h3>Terms of Service</h3>
         <p>
           Carsight is not responsible for anything that happens while using the
@@ -21,11 +18,11 @@ const CoinAlerts = () => {
           specefic times.
         </p>
       </div>
-      <div className={cx("about__contribute")}>
+      <div>
         <p>Contact me at jeffmendez19@gmail.com this email will change soon.</p>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default CoinAlerts
+export default CoinAlerts;

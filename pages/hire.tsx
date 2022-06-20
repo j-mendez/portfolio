@@ -1,9 +1,5 @@
-import classNames from "classnames/bind";
-import styles from "../styles/components/hire.module.scss";
 import Layout, { siteTitle } from "../components/layout";
 import Head from "next/head";
-
-const cx = classNames.bind(styles);
 
 const Hire = () => {
   return (
@@ -11,10 +7,10 @@ const Hire = () => {
       <Head>
         <title>{siteTitle + "- Hire Me"}</title>
       </Head>
-      <div className={cx("hire__container")}>
-        <div className="row">
-          <div className="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div className="col-md-12">
+      <div>
+        <div>
+          <div>
+            <div>
               <h1>Software Engineer Jeff Mendez</h1>
               <p>
                 Florida based software engineer with a strong overall grasp of
