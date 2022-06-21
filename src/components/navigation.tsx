@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 
 const Navigation = () => {
   const links = [
@@ -11,12 +10,12 @@ const Navigation = () => {
   return (
     <nav role="navigation" style={{ borderBottom: "1px solid #ccc" }}>
       <ol>
-        {links.map(({ href, name }: { href: string; name: string }) => {
+        {links.map(({ href, name }) => {
           return (
             <li style={{ marginRight: 6, display: "inline-block" }} key={href}>
-              <Link href={href} key={name}>
-                <a style={{ padding: "0.2em" }}>{name}</a>
-              </Link>
+              <a href={href} key={name} style={{ padding: "0.2em" }}>
+                {name}
+              </a>
             </li>
           );
         })}

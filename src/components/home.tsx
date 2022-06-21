@@ -1,18 +1,8 @@
-import Head from "next/head";
-import Layout, { siteTitle } from "../components/layout";
+import React from "react";
 
-export default function Home() {
+const Home = () => {
   return (
-    <Layout home>
-      <Head>
-        <title>{siteTitle}</title>
-        <meta
-          name="description"
-          content={
-            "Florida based software engineer focusing on accessibility at A11yWatch. Lover of art and music and of course coffee."
-          }
-        />
-      </Head>
+    <>
       <section>
         <p>
           Hi, my name is Jeff Mendez and I am software engineer and Founder of
@@ -44,6 +34,8 @@ export default function Home() {
           Github
         </a>{" "}
       </section>
-    </Layout>
+    </>
   );
-}
+};
+
+export default Home;

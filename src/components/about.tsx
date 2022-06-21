@@ -1,21 +1,10 @@
 import React from "react";
-import Head from "next/head";
-import Layout from "../components/layout";
 
 const About = () => {
   return (
-    <Layout>
-      <Head>
-        <title>About Jeff Mendez and personal life</title>
-        <meta
-          name="description"
-          content={
-            "A section about myself day to day and as a software engineer."
-          }
-        />
-      </Head>
+    <>
       <div>
-        <h1>About Jeff Mendez</h1>
+        <h1>About myself and personal life sorta</h1>
         <div>
           <p>
             I am a Florida-based software engineer that loves everything about
@@ -33,7 +22,7 @@ const About = () => {
             My github is{" "}
             <a
               href={"https://github.com/j-mendez"}
-              title={"Jeff Mendez Github"}
+              title={"Jeff Mendez's Github"}
             >
               j-mendez
             </a>
@@ -42,7 +31,7 @@ const About = () => {
           </p>
         </div>
       </div>
-    </Layout>
+    </>
   );
 };
 
