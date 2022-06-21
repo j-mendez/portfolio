@@ -4,11 +4,11 @@ const About = () => {
   return (
     <>
       <div>
-        <h1>About myself and personal life sorta</h1>
+        <h1>About myself and personal life, sorta</h1>
         <div>
           <p>
-            I am a Florida-based software engineer that loves everything about
-            building things. I specialize in security, devops, data intensive
+            Florida based software engineer that loves everything about building
+            things. I specialize in security, devops, data intensive
             applications, and software engineering. If you are looking for an
             experienced software engineer to create a new application, write new
             features into an existing application, or help you make your

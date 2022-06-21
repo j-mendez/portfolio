@@ -1,7 +1,5 @@
 import React from "react";
 
-const carsight = "/images/carsight.png";
-
 const videoStyles = {
   maxHeight: "55.5vh",
   maxWidth: "95vw",
@@ -122,13 +120,6 @@ class Tags extends React.Component {
               </div>
             </div>
             <div>
-              <div style={{ flex: 1 }}>
-                <img
-                  src={carsight}
-                  style={videoStyles}
-                  alt={`Image of the carsight find your car app`}
-                />
-              </div>
               <div
                 style={{
                   background: "none",

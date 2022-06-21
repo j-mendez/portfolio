@@ -16,15 +16,15 @@ const Home = () => {
           to improve your web inclusion.
         </p>
         <p>
-          Use the websites accessibility checker{" "}
+          Use the{" "}
           <a
             href="https://a11ywatch.com/website-accessibility-checker"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Web Accessibility Check
+            website accessibility checker
           </a>{" "}
-          for free.
+          for free to evaluate your page.
         </p>
         <a
           href="https://github.com/j-mendez"
