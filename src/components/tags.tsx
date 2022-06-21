@@ -1,6 +1,4 @@
 import React from "react";
-import Head from "next/head";
-import Layout, { siteTitle } from "../components/layout";
 
 const zeemee1 = "images/zeemee1.png";
 const carsight = "images/carsight.png";
@@ -18,10 +16,7 @@ const videoStyles = {
 class Tags extends React.Component {
   render() {
     return (
-      <Layout>
-        <Head>
-          <title>{siteTitle + " - Projects"}</title>
-        </Head>
+      <>
         <div>
           <h1>Some cool projects</h1>
           <div
@@ -344,7 +339,7 @@ class Tags extends React.Component {
           </div>
           <br />
         </div>
-      </Layout>
+      </>
     );
   }
 }
