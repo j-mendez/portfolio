@@ -29,7 +29,7 @@ const About = () => {
             >
               j-mendez
             </a>
-            . I have contributed to varios react-native projects including the
+            . I have contributed to various react-native projects including the
             source.
           </p>
         </div>
