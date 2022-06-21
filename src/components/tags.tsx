@@ -1,14 +1,12 @@
 import React from "react";
 
-const zeemee1 = "images/zeemee1.png";
-const carsight = "images/carsight.png";
+const carsight = "/images/carsight.png";
 
 const videoStyles = {
   maxHeight: "55.5vh",
   maxWidth: "95vw",
   minHeight: "38vh",
   minWidth: "100%",
-  flex: 1,
   margin: 0,
   padding: 0,
 };
@@ -188,13 +186,6 @@ class Tags extends React.Component {
                   students.
                 </div>
               </div>
-            </div>
-            <div>
-              <img
-                src={zeemee1}
-                alt={`Zeeme App website page`}
-                style={videoStyles}
-              />
             </div>
             <div>
               <div>
