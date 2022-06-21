@@ -14,12 +14,14 @@ const Hire = () => {
       <p>I am available for short-term and long-term contract projects.</p>
       <p>
         To quickly get in touch with me, email me at{" "}
-        <a
-          href="mailto:jeff@a11ywatch.com"
-          style={{ color: "rgb(30, 64, 175)" }}
-        >
-          jeff@a11ywatch.com
-        </a>
+        <address>
+          <a
+            href="mailto:jeff@a11ywatch.com"
+            style={{ color: "rgb(30, 64, 175)" }}
+          >
+            jeff@a11ywatch.com
+          </a>
+        </address>
         . My rates start at 200$/hr but, I am willing to negotiate with smaller
         clients or long term projects.
       </p>

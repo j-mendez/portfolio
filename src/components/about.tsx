@@ -17,7 +17,10 @@ const About = () => {
           </p>
         </div>
         <div>
-          <a href={"jeff@a11ywatch.com"}>Contact me at jeff@a11ywatch.com</a>
+          Contact me at
+          <address>
+            <a href={"jeff@a11ywatch.com"}>jeff@a11ywatch.com</a>
+          </address>
           <p>
             My github is{" "}
             <a
