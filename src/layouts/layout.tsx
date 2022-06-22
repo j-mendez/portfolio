@@ -52,9 +52,11 @@ export default function Layout({ children, home, title, description }) {
                   alt={name}
                 />
               </a>
-              <h2>
-                <a href="/">{name}</a>
-              </h2>
+              {name ? (
+                <h2>
+                  <a href="/">{name}</a>
+                </h2>
+              ) : null}
             </>
           )}
         </header>
