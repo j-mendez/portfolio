@@ -63,9 +63,7 @@ export default function Layout({ children, home, title, description }) {
         <main>{children}</main>
         {!home && (
           <div>
-            <a href="/">
-              <a>← Back to home</a>
-            </a>
+            <a href="/">← Back to home</a>
           </div>
         )}
       </body>
