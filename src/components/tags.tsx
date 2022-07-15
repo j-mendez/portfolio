@@ -28,8 +28,7 @@ class Tags extends React.Component {
               </a>
               <div>
                 Improve your website inclusiveness and prevent your page from
-                having drastic accessibility problems using artificial
-                intelligence.
+                having drastic accessibility problems.
               </div>
             </div>
           </div>
