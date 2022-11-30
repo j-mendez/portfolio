@@ -28,6 +28,8 @@ const About = () => {
             My github is{" "}
             <a
               href={"https://github.com/j-mendez"}
+              rel="noopener noreferrer" 
+              target="_blank"
               title={"Jeff Mendez's Github"}
             >
               j-mendez

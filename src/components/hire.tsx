@@ -41,6 +41,8 @@ const Hire = () => {
         Here is a list of my projects that I have contributed to{" "}
         <a
           href="https://github.com/j-mendez?tab=repositories"
+          rel="noopener noreferrer" 
+          target="_blank"
           style={{ color: "rgb(30, 64, 175)" }}
         >
           free, open source projects
@@ -59,9 +61,9 @@ const Hire = () => {
       <p>Build Lifecycle / Continuous Delivery / Continuous Integration</p>
       <p>
         I have deep experience setting up and managing build servers including
-        <a href="https://www.docker.com/"> Docker </a>,
-        <a href="https://www.vagrant.com/"> Vagrant </a>, and
-        <a href="https://www.chef.io/"> Chef Environments</a>.
+        <a href="https://www.docker.com/" rel="noopener noreferrer" target="_blank"> Docker </a>,
+        <a href="https://www.vagrant.com/" rel="noopener noreferrer" target="_blank"> Vagrant </a>, and
+        <a href="https://www.chef.io/" rel="noopener noreferrer" target="_blank"> Chef Environments</a>.
       </p>
       <p>
         I can create a complete lifecycle that takes developer code and
