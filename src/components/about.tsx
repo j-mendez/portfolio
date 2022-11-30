@@ -12,29 +12,6 @@ const About = () => {
             applications, and UI/UX (all platforms from no OS, web, mobile, and
             desktop applications).
           </p>
-
-          <p>
-            I was also the lead developer for the{" "}
-            <a
-              href={"https://apps.apple.com/us/app/holovista/id1474114304"}
-              target="_blank"
-            >
-              HolaVista
-            </a>{" "}
-            app that received the{" "}
-            <a
-              href={"https://developer.apple.com/design/awards/2021/"}
-              target="_blank"
-            >
-              2021 Apple Inclusivity Design Award
-            </a>
-            . The main focus on the project was binding a second js engine that
-            can run and handle immense 3d processing with native sensors.
-            Another neat thing was a framework was developed so the team can
-            write in HTML, CSS, and JS directly into native functionality with
-            the help of react-native.
-          </p>
-
           <p>
             If you are looking for an experienced software engineer to create a
             new application, write new features into an existing application,
@@ -54,9 +31,7 @@ const About = () => {
               title={"Jeff Mendez's Github"}
             >
               j-mendez
-            </a>
-            . I have contributed to various react-native projects including the
-            source.
+            </a>.
           </p>
         </div>
       </div>
