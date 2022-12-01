@@ -15,6 +15,13 @@ class Tags extends React.Component {
       <>
         <div>
           <h1>Some cool projects</h1>
+          <p>
+            A couple of cool projects that I got to work on over the years.
+          </p>
+          <h2>
+            Software from different stacks along the way.
+          </h2>
+          <p>Most of the projects show cased are mobile apps since that was a big area of focus for some years.</p>
           <div
             style={{
               flexDirection: "row",

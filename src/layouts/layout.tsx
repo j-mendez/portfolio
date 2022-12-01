@@ -53,9 +53,9 @@ export default function Layout({ children, home, title, description }) {
                 />
               </a>
               {name ? (
-                <h2>
+                <div>
                   <a href="/">{name}</a>
-                </h2>
+                </div>
               ) : null}
             </>
           )}

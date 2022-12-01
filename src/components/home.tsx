@@ -33,6 +33,22 @@ const Home = () => {
         >
           Github
         </a>{" "}
+
+        <h2>
+            Blog posts
+        </h2>
+
+        <p>
+          You can view some of my blog content at         
+            <a
+            href="https://a11ywatch.blog"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Github
+          </a>
+        </p>
+        
       </section>
     </>
   );
