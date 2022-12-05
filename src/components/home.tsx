@@ -39,13 +39,13 @@ const Home = () => {
         </h2>
 
         <p>
-          You can view some of my blog content at         
+          You can view some of my blog content at{" "}         
             <a
             href="https://a11ywatch.blog"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Github
+            A11yWatch Blog
           </a>
         </p>
         
