@@ -31,34 +31,12 @@ export default function Layout({ children, home, title, description }) {
         <Navigation />
         <header style={{ paddingTop: 5 }}>
           {home ? (
-            <>
-              <div style={{ paddingTop: 5 }}>
-                <img
-                  src="/images/profile.jpg"
-                  height={144}
-                  width={144}
-                  alt={name}
-                />
-              </div>
               <h1>{name}</h1>
-            </>
-          ) : (
-            <>
-              <a href="/">
-                <img
-                  src="/images/profile.jpg"
-                  height={108}
-                  width={108}
-                  alt={name}
-                />
-              </a>
-              {name ? (
-                <div>
-                  <a href="/">{name}</a>
-                </div>
-              ) : null}
-            </>
-          )}
+          ) : name ? (
+            <div>
+              <a href="/">{name}</a>
+            </div>
+          ) : null}
         </header>
         <main>{children}</main>
         {!home && (
