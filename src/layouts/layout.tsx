@@ -32,18 +32,9 @@ export default function Layout({ children, home, title, description }) {
         <header style={{ paddingTop: 5 }}>
           {home ? (
               <h1>{name}</h1>
-          ) : name ? (
-            <div>
-              <a href="/">{name}</a>
-            </div>
           ) : null}
         </header>
         <main>{children}</main>
-        {!home && (
-          <div>
-            <a href="/">← Back to home</a>
-          </div>
-        )}
       </body>
     </html>
   );
