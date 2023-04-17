@@ -22,8 +22,7 @@ const Hire = () => {
             jeff@a11ywatch.com
           </a>
         </address>
-        . My rates start at 200$/hr but, I am willing to negotiate with smaller
-        clients or long term projects.
+        .
       </p>
       <h2>React and React-Native</h2>
       <p>
@@ -87,12 +86,14 @@ const Hire = () => {
       <ul>
         <li>
           Email -{" "}
+          <address>
           <a
             href="mailto:jeff@a11ywatch.com"
             style={{ color: "rgb(30, 64, 175)" }}
           >
             jeff@a11ywatch.com
           </a>
+          </address>
         </li>
       </ul>
       <p>I will answer almost immediately!</p>

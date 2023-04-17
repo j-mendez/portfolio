@@ -1,5 +1,5 @@
 import React from "react";
-import Navigation from "../components/navigation.tsx";
+import Navigation from "../components/navigation";
 
 const siteTitle = "Jeff Mendez - Software Engineer";
 const name = "Jeff Mendez";

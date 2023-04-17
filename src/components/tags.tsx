@@ -52,7 +52,6 @@ class Tags extends React.Component {
             <iframe
               style={videoStyles}
               src="https://player.vimeo.com/video/389034032?title=0&amp;byline=0&amp;portrait=0&amp;muted=1&amp;autoplay=0&amp;autopause=0&amp;controls=1&amp;loop=1&amp;"
-              frameBorder="0"
               allow="autoplay; fullscreen"
               allowFullScreen
               title={"Video of A11yWatch initial prototype"}
@@ -137,7 +136,6 @@ class Tags extends React.Component {
                 <iframe
                   style={videoStyles}
                   src="https://player.vimeo.com/video/373720284?title=0&byline=0&portrait=0&muted=1&autoplay=0&autopause=0&controls=1&loop=1"
-                  frameBorder="0"
                   allow="autoplay; fullscreen"
                   allowFullScreen
                   title="Carsight car finding app"
@@ -207,22 +205,26 @@ class Tags extends React.Component {
                   <li>MYSQL</li>
                   <li>Rails</li>
                   <li>Redis</li>
-                  <a
-                    href="https://apps.apple.com/us/app/zeemee/id1044878258"
-                    style={{ color: "rgb(30, 64, 175)" }}
-                    rel="noreferrer"
-                    target="_blank"
-                  >
-                    <li>View on App Store</li>
-                  </a>
-                  <a
-                    href="https://play.google.com/store/apps/details?id=com.zeemee.zeemee_android&hl=en"
-                    style={{ color: "rgb(30, 64, 175)" }}
-                    rel="noreferrer"
-                    target="_blank"
-                  >
-                    <li>View on Play Store</li>
-                  </a>
+                  <li>
+                    <a
+                      href="https://apps.apple.com/us/app/zeemee/id1044878258"
+                      style={{ color: "rgb(30, 64, 175)" }}
+                      rel="noreferrer"
+                      target="_blank"
+                    >
+                      View on App Store
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://play.google.com/store/apps/details?id=com.zeemee.zeemee_android&hl=en"
+                      style={{ color: "rgb(30, 64, 175)" }}
+                      rel="noreferrer"
+                      target="_blank"
+                    >
+                      View on Play Store
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -272,22 +274,26 @@ class Tags extends React.Component {
                   <li>Java</li>
                   <li>Obj-C</li>
                   <li>MySql</li>
-                  <a
-                    href="https://itunes.apple.com/us/app/arcus-load-management/id1331606155?mt=8"
-                    style={{ color: "rgb(30, 64, 175)" }}
-                    rel="noreferrer"
-                    target="_blank"
-                  >
-                    <li>View on App Store</li>
-                  </a>
-                  <a
-                    href="https://play.google.com/store/apps/details?id=com.arcus"
-                    style={{ color: "rgb(30, 64, 175)" }}
-                    rel="noreferrer"
-                    target="_blank"
-                  >
-                    <li>View on Play Store</li>
-                  </a>
+                  <li>
+                    <a
+                      href="https://itunes.apple.com/us/app/arcus-load-management/id1331606155?mt=8"
+                      style={{ color: "rgb(30, 64, 175)" }}
+                      rel="noreferrer"
+                      target="_blank"
+                    >
+                      View on App Store
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://play.google.com/store/apps/details?id=com.arcus"
+                      style={{ color: "rgb(30, 64, 175)" }}
+                      rel="noreferrer"
+                      target="_blank"
+                    >
+                      View on Play Store
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>
