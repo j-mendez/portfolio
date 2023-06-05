@@ -5,8 +5,7 @@ const Home = () => {
     <>
       <section>
         <p>
-          Hi, my name is Jeff Mendez and I am software engineer and Founder of
-          A11yWatch a web accessibility improvement suite.
+          Hi, my name is Jeff Mendez and I am software engineer residing in Florida.
         </p>
         <p>
           Checkout{" "}

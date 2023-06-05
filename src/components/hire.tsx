@@ -30,12 +30,7 @@ const Hire = () => {
         native development. I actually have been using react-native since
         initial launch.
       </p>
-      <h3>PHP / Python / MySQL / Node / Backend Development</h3>
-      <p>
-        I have extensive experience with PHP, Node and Python. I am familiar
-        with multiple frameworks with my go-to being Hack/HHVM with Symfony or
-        custom built solutions.
-      </p>
+      <h3>Open Source Projects </h3>
       <p>
         Here is a list of my projects that I have contributed to{" "}
         <a
@@ -50,9 +45,9 @@ const Hire = () => {
         since my time is very limited now a days with the family.
       </p>
       <h4 id="puppet-%2F-server-management-%2F-devops">
-        Debugging / Server Management / Security / Devops / Docker
+        Devops and cloud platforms
       </h4>
-      <p>I can deploy servers using anything, AWS, Heroku, Now, etc.</p>
+      <p>I can deploy servers using anything, AWS, GPC, Heroku, Now, etc.</p>
       <p>
         While bringing the product between all of its stages in a fast and
         continous pipeline to keep downtime across updates minimal.
@@ -70,13 +65,14 @@ const Hire = () => {
         quality, setting up dependencies, backing up current deployment and
         deploying new and stable release.
       </p>
-      <h5 id="html5-%2F-css-%2F-javascript">HTML / CSS / Javascript</h5>
+      <h5 id="html5-%2F-css-%2F-javascript">Front-End Development</h5>
       <p>
-        I have created usable interfaces to display complex data and can create
+        I built usable interfaces to display complex data and can create
         the Javascript to help power those interfaces. I have even bridged
         complex systems that interact with a universal api for native to html
-        access. I also specialize in accessibility to make a product ada
-        compliant and usable for the majority.
+        access. I also specialize in accessibility to make a product ADA
+        compliant and usable for the majority. 2022 I lead a team to win an app store
+        award for inclusion called HoloVista.
       </p>
       <p id="call-me%2C-maybe%3F">Contact me?</p>
       <p>
@@ -88,10 +84,10 @@ const Hire = () => {
           Email -{" "}
           <address>
           <a
-            href="mailto:jeff@a11ywatch.com"
+            href="mailto:jeffmendez19@gmail.com"
             style={{ color: "rgb(30, 64, 175)" }}
           >
-            jeff@a11ywatch.com
+            jeffmendez19@gmail.com
           </a>
           </address>
         </li>

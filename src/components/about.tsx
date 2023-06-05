@@ -9,8 +9,8 @@ const About = () => {
           <p>
             Florida based software engineer that loves everything about building
             things. I specialize in security, devops, data intensive
-            applications, and UI/UX (all platforms from no OS, web, mobile, and
-            desktop applications).
+            applications, and UI/UX (all platforms from no OS, web, mobile, devops, cloud, and
+            native applications).
           </p>
           <p>
             If you are looking for an experienced software engineer to create a
@@ -22,7 +22,7 @@ const About = () => {
         <div>
           Contact me at
           <address>
-            <a href={"mailto:jeff@a11ywatch.com"}>jeff@a11ywatch.com</a>
+            <a href={"mailto:jeffmendez19@gmail.com"}>jeffmendez19@gmail.com</a>
           </address>
           <p>
             My github is{" "}

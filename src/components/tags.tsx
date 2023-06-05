@@ -14,9 +14,9 @@ class Tags extends React.Component {
     return (
       <>
         <div>
-          <h1>Some cool projects</h1>
+          <h1>Roles in projects</h1>
           <p>
-            A couple of cool projects that I got to work on over the years.
+            A couple of projects that I got to work on over the years.
           </p>
           <h2>
             Software from different stacks along the way.
