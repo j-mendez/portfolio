@@ -10,8 +10,9 @@ export default function Layout({ children, home, title, description }) {
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
         <title>{title || siteTitle}</title>
+        <link rel="sitemap" href="/sitemap-index.xml" />
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
         <meta
           name="description"
           content={
