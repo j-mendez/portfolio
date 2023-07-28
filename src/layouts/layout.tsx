@@ -28,14 +28,15 @@ export default function Layout({ children, home, title, description }) {
         <meta name="og:title" content={title || siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </head>
+      <style>{`.container { padding: 1.5rem; }`}</style>
       <body>
-        <Navigation />
-        <header style={{ paddingTop: 5 }}>
-          {home ? (
-              <h1>{name}</h1>
-          ) : null}
+        <header>
+          <Navigation />
         </header>
-        <main>{children}</main>
+        <main className="container">
+          {home ? <h1>{name}</h1> : null}
+          {children}
+        </main>
       </body>
     </html>
   );

@@ -35,7 +35,7 @@ const Hire = () => {
         Here is a list of my projects that I have contributed to{" "}
         <a
           href="https://github.com/j-mendez?tab=repositories"
-          rel="noopener noreferrer" 
+          rel="noopener noreferrer"
           target="_blank"
           style={{ color: "rgb(30, 64, 175)" }}
         >
@@ -55,9 +55,33 @@ const Hire = () => {
       <p>Build Lifecycle / Continuous Delivery / Continuous Integration</p>
       <p>
         I have deep experience setting up and managing build servers including
-        <a href="https://www.docker.com/" rel="noopener noreferrer" target="_blank"> Docker </a>,
-        <a href="https://www.vagrant.com/" rel="noopener noreferrer" target="_blank"> Vagrant </a>, and
-        <a href="https://www.chef.io/" rel="noopener noreferrer" target="_blank"> Chef Environments</a>.
+        <a
+          href="https://www.docker.com/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          {" "}
+          Docker{" "}
+        </a>
+        ,
+        <a
+          href="https://www.vagrant.com/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          {" "}
+          Vagrant{" "}
+        </a>
+        , and
+        <a
+          href="https://www.chef.io/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          {" "}
+          Chef Environments
+        </a>
+        .
       </p>
       <p>
         I can create a complete lifecycle that takes developer code and
@@ -67,12 +91,12 @@ const Hire = () => {
       </p>
       <h5 id="html5-%2F-css-%2F-javascript">Front-End Development</h5>
       <p>
-        I built usable interfaces to display complex data and can create
-        the Javascript to help power those interfaces. I have even bridged
-        complex systems that interact with a universal api for native to html
-        access. I also specialize in accessibility to make a product ADA
-        compliant and usable for the majority. 2022 I lead a team to win an app store
-        award for inclusion called HoloVista.
+        I built usable interfaces to display complex data and can create the
+        Javascript to help power those interfaces. I have even bridged complex
+        systems that interact with a universal api for native to html access. I
+        also specialize in accessibility to make a product ADA compliant and
+        usable for the majority. 2022 I lead a team to win an app store award
+        for inclusion called HoloVista.
       </p>
       <p id="call-me%2C-maybe%3F">Contact me?</p>
       <p>
@@ -83,12 +107,12 @@ const Hire = () => {
         <li>
           Email -{" "}
           <address>
-          <a
-            href="mailto:jeffmendez19@gmail.com"
-            style={{ color: "rgb(30, 64, 175)" }}
-          >
-            jeffmendez19@gmail.com
-          </a>
+            <a
+              href="mailto:jeffmendez19@gmail.com"
+              style={{ color: "rgb(30, 64, 175)" }}
+            >
+              jeffmendez19@gmail.com
+            </a>
           </address>
         </li>
       </ul>

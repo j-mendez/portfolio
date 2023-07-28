@@ -5,7 +5,8 @@ const Home = () => {
     <>
       <section>
         <p>
-          Hi, my name is Jeff Mendez and I am software engineer residing in Florida.
+          Hi, my name is Jeff Mendez and I am software engineer residing in
+          Florida.
         </p>
         <p>
           Checkout{" "}
@@ -32,14 +33,10 @@ const Home = () => {
         >
           Github
         </a>{" "}
-
-        <h2>
-            Blog posts
-        </h2>
-
+        <h2>Blog posts</h2>
         <p>
-          You can view some of my blog content at{" "}         
-            <a
+          You can view some of my blog content at{" "}
+          <a
             href="https://a11ywatch.blog"
             target="_blank"
             rel="noopener noreferrer"
@@ -47,7 +44,6 @@ const Home = () => {
             A11yWatch Blog
           </a>
         </p>
-        
       </section>
     </>
   );

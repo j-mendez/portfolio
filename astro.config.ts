@@ -4,7 +4,7 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://jeffmendez.com',
+  site: "https://jeffmendez.com",
   integrations: [react(), sitemap()],
-  outDir: "./out" // aws amplify
+  outDir: "./out", // aws amplify
 });
