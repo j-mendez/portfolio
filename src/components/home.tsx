@@ -26,6 +26,15 @@ const Home = () => {
           </a>{" "}
           for free to evaluate your page.
         </p>
+
+        <p>
+          If you need a marketing key word finding app {" "}
+          <a href="https://seoder.com" target="_blank" rel="external">
+            Seoder
+          </a>{" "}
+          has an affordable price to take SEO marketing to the next level.
+        </p>
+
         <a
           href="https://github.com/j-mendez"
           target="_blank"
