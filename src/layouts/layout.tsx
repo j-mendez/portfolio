@@ -12,7 +12,7 @@ export default function Layout({ children, home, title, description }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{title || siteTitle}</title>
         <link rel="sitemap" href="/sitemap-index.xml" />
-        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="/images/favicon.png" />
         <meta
           name="description"
           content={
