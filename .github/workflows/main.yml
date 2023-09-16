@@ -11,10 +11,14 @@ jobs:
       - uses: actions/checkout@v2
       - name: A11yWatch
         id: a11ywatch-results-generator
-        uses: a11ywatch/github-action@v1.2.44
+        uses: a11ywatch/github-action@v2.1.7
         with:
           WEBSITE_URL: ${{ secrets.WEBSITE_URL }}
-          EXTERNAL: true
+          FAIL_TOTAL_COUNT: 100
+          EXTERNAL: false
+          SITE_WIDE: true
+          LIST: true
+          UPLOAD: true
       - name: Get Results
         run: |
           echo "website accessibility score ${{ fromJson(steps['a11ywatch-results-generator'].outputs.results).website.adaScore }}"

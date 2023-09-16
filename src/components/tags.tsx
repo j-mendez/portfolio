@@ -7,6 +7,7 @@ const videoStyles = {
   minWidth: "100%",
   margin: 0,
   padding: 0,
+  border: 0
 };
 
 class Tags extends React.Component {
@@ -19,7 +20,7 @@ class Tags extends React.Component {
           <h2>Software from different stacks along the way.</h2>
           <p>
             Most of the projects show cased are mobile apps since that was a big
-            area of focus for some years.
+            area of focus.
           </p>
           <div
             style={{
@@ -44,8 +45,8 @@ class Tags extends React.Component {
               boxShadow: "none",
               border: 0,
               flex: 1,
-              paddingTop: 10,
-              paddingBottom: 10,
+              paddingTop: 12,
+              paddingBottom: 12,
             }}
           >
             <iframe
