@@ -7,7 +7,7 @@ const videoStyles = {
   minWidth: "100%",
   margin: 0,
   padding: 0,
-  border: 0
+  border: 0,
 };
 
 class Tags extends React.Component {

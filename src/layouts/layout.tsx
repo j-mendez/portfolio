@@ -1,8 +1,7 @@
 import React from "react";
-import Navigation from "../components/navigation";
 
 const siteTitle = "Jeff Mendez - Software Engineer";
-const name = "My name Jeff";
+const name = "Jeff Mendez Portfolio";
 
 export default function Layout({ children, home, title, description }) {
   return (
@@ -28,11 +27,8 @@ export default function Layout({ children, home, title, description }) {
         <meta name="og:title" content={title || siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </head>
-      <style>{`.container { padding: 1.5rem; }`}</style>
+      <style>{`.container { padding: 1.5rem; } a { display: inline-block; } a:hover { color: rgb(2 132 199); } li + li { margin-top: 10px; }`}</style>
       <body>
-        <header>
-          <Navigation />
-        </header>
         <main className="container">
           {home ? <h1>{name}</h1> : null}
           {children}

@@ -19,7 +19,7 @@ jobs:
           SITE_WIDE: true
           LIST: true
           UPLOAD: true
-      - name: Get Results
-        run: |
-          echo "website accessibility score ${{ fromJson(steps['a11ywatch-results-generator'].outputs.results).website.adaScore }}"
-          echo ${{ toJSON(steps['a11ywatch-results-generator'].outputs.results) }} | jq ". | tojson"
+      # - name: Get Results
+      #   run: |
+      #     echo "website accessibility score ${{ fromJson(steps['a11ywatch-results-generator'].outputs.results).website.adaScore }}"
+      #     echo ${{ toJSON(steps['a11ywatch-results-generator'].outputs.results) }} | jq ". | tojson"
