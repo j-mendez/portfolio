@@ -19,7 +19,7 @@ const links = [
   },
   {
     href: "https://appadvice.com/app/arcus-load-management/1331606155",
-    name: "Arcus Load Managmeent",
+    name: "Arcus Load Managment",
   },
   {
     href: "https://www.youtube.com/watch?app=desktop&v=pJyjsg588zs",
